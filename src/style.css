@@ -1,0 +1,205 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  background-color: whitesmoke;
+  padding: 0;
+ 
+}
+
+header {
+  /* background-color: whitesmoke; */
+  width: 100%;
+  display: flex;
+  flex-grow: 100%;
+ 
+
+
+  
+  
+  
+  
+  
+
+}
+
+header ul {
+   display: flex;
+
+  padding: 20px;
+  margin-top: 0%;
+
+}
+
+header ul li {
+  margin-right: 25px;
+  list-style: none;
+ 
+  
+}
+
+header li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 40px;
+  margin-left: 20px;
+  
+  
+}
+
+
+.Welcome-Text{
+ margin-left: 9px;
+ 
+ justify-content: center;
+}
+.pcontacts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  
+}
+.pcontacts ul li a{
+  text-decoration: none;
+  list-style: none;
+  color:wheat;
+  text-align: center;
+ 
+  
+}
+.pcontacts ul{
+  padding-left: 0;
+ 
+}
+
+.pcontacts ul li {
+  text-decoration: none;
+  list-style: none;
+  color:wheat;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile{
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+ display: flex;
+  flex-direction: column;
+  background-color: #333333;
+  width: 300px; 
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+footer p {
+  position: absolute;
+  bottom: 0;
+  background-color: #333333;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 12px;
+}
+.contacts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  
+ 
+}
+.contact-card {
+  /* flex-basis: 225px; */
+  flex-basis: 70%;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  padding-bottom: 10px;
+  background-color: white;
+  color: #333333;
+  margin-bottom: 20px;
+  font-size: 19px;
+}
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1605px)  
+{ .contact-card {
+  /* flex-basis: 225px; */
+  flex-basis: 300px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  padding-bottom: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+  font-size: 19px;
+ justify-content: center;
+ align-items: center;
+
+
+}} 
+
+
+.User-photo{
+  /* justify-self: center;
+  align-self: center; */
+  width: 300px;
+  border-radius: 20%;
+}
+.pag-button{
+  font-size: 20px;
+
+  margin-left: 7px;
+}
+
+.pagination-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: 200;
+  font-size: 15px;
+}
+.pagination-container  :hover   {
+  background-color: #333333;
+}
+
+
+.pagination-container a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+  transition: background-color .2s;
+  border:  1px solid #ddd;
+  cursor: pointer;
+  
+}
+.pagination-container a.disabled {
+  opacity: 0.2;
+}
+/* .pagination-container a:hover:not(.active) {
+  background-color: #333333;
+} */
+
